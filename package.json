@@ -1,19 +1,19 @@
 {
-  "name": "@devlikeapro/n8n-nodes-petstore",
+  "name": "@cosysdata/n8n-nodes-oaid",
   "version": "1.0.0",
-  "description": "n8n node to connect with Petstore",
+  "description": "n8n node to connect with Oaid",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "Devlikapro",
-    "email": "admin@devlike.pro"
+    "name": "Cosys Data",
+    "email": "office@cosys.cc"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devlikeapro/n8n-nodes-petstore.git"
+    "url": "https://github.com/cosysdata/n8n-nodes-oaid.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -36,7 +36,7 @@
     "n8nNodesApiVersion": 1,
     "credentials": [],
     "nodes": [
-      "dist/nodes/Petstore/Petstore.node.js"
+      "dist/nodes/Oaid/Oaid.node.js"
     ]
   },
   "devDependencies": {
