@@ -1,6 +1,6 @@
-import {Petstore} from "./Petstore.node";
+import {Petstore} from "./Oaid.node";
 
 test("smoke", () => {
-    const node = new Petstore()
+    const node = new Oaid()
     expect(node.description.properties).toBeDefined()
 })
