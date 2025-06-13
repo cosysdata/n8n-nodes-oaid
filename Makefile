@@ -10,7 +10,7 @@ link:
 	npm link
 
 start:
-	cd ~/.n8n/custom && npm link @devlikeapro/n8n-nodes-petstore && n8n start
+	cd ~/.n8n/custom && npm link @cosysdata/n8n-nodes-oaid && n8n start
 
 tests:
 	npm run test
@@ -27,4 +27,4 @@ clean:
 	rm -rf ./dist
 
 up-swagger:
-	wget -qO- https://petstore3.swagger.io/api/v3/openapi.json | jq '.' > ./nodes/Petstore/openapi.json
+	wget -qO- https://api.oaid.at/v2/isp/openapi.json | jq '.' > ./nodes/Oaid/openapi.json
